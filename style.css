@@ -1,0 +1,83 @@
+h1 {
+    margin-bottom: 1300px;
+    margin-left: 100px;
+}
+
+.main {
+    background-color: dimgray;
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    margin-left: -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 20%;
+    height: 35%;
+    border: solid rgb(110, 72, 1) 5px;
+    margin-top: -560px;
+}
+
+.operators
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 140px;
+    margin: 5px;
+    margin-top: 80px;
+}
+
+.operators button {
+    margin: 5px; /* Adjust the margin as needed for spacing */
+    margin-top: 18px;
+    width: 43px;
+    height: 70px;
+    position: relative;
+    top: -70px;
+    
+}
+
+button {
+    width: 70px;
+    height:   70px;
+    color: blue;
+    background-color: chocolate;
+    font-size: 20px;
+}
+
+.button-row {
+    display: flex;
+}
+
+.button-row button {
+    margin: 5px; /* Adjust the margin as needed for spacing */
+    margin-top: 20px;
+    position: relative;
+    height: 80px;
+    width: 75px;
+    top: -520px;
+    left: -20px;
+    /* margin-bottom: 20px; */
+}
+
+#inputbox
+{
+    position: relative;
+top: 20px;
+left: 2px;
+width: 92%;
+height: 100px;
+background-color: rgb(19, 10, 27);
+color: bisque;
+text-align: right;
+padding-right: 10px;
+font-size: 20px;
+padding-top: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>JS Interactive Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <h1>Calculator</h1>
+        </div>
+        <div class="calc">
+            <input type="text" id="inputbox" disabled><br>
+            <div class="operators">
+                <button id="plus" value="+" onclick="buttonPush(this)">+</button>
+                <button id="minus" value="-" onclick="buttonPush(this)">-</button>
+                <button id="multiply" value="x" onclick="buttonPush(this)">x</button>
+                <button id="divide" value="/" onclick="buttonPush(this)">/</button>
+                <button id="equals" value="=" onclick="buttonPush(this)">=</button>
+                <!-- <button id="plus"></button> -->
+            </div>
+            <div class="button-row">
+                <button id="one" value="1" onclick="buttonPush(this)">1</button>
+                <button id="two" value="2" onclick="buttonPush(this)">2</button>
+                <button id="three" value="3" onclick="buttonPush(this)">3</button>
+            </div>
+            <div class="button-row">
+                <button id="four" value="4" onclick="buttonPush(this)">4</button>
+                <button id="five" value="5" onclick="buttonPush(this)">5</button>
+                <button id="six" value="6" onclick="buttonPush(this)">6</button>
+            </div>
+            <div class="button-row">
+                <button id="seven" value="7" onclick="buttonPush(this)">7</button>
+                <button id="eight" value="8" onclick="buttonPush(this)">8</button>
+                <button id="nine" value="9" onclick="buttonPush(this)">9</button>
+            </div>
+            <div class="button-row">
+                <button id="zero" value="0" onclick="buttonPush(this)">0</button>
+                <button id="decimal" value="." onclick="buttonPush(this)">.</button>
+                <button id="clear" value="AC" onclick="buttonPush(this)">AC</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
